@@ -1,0 +1,515 @@
+.page-container {
+  width: 100%;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5em;
+  margin-top: 5px;
+  list-style-type: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 0.9em;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.banner {
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.top_banner {
+  background-image: url("img/la-chouette-agence-banniere.jpg");
+  height: 450px;
+}
+
+.bloc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 80px;
+  padding-bottom: 114px;
+  background: url("img/texture-paper.png");
+}
+
+.bloc h1 {
+  color: #E6DEAD;
+  font-size: 2.3em;
+  font-weight: normal;
+}
+
+.bloc a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  background-color: #8A4E2D;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 15px 30px 15px 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.bloc a:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  background-color: #6f3f24;
+}
+
+h2 {
+  color: white;
+  background-color: #8A4E2D;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#services {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  color: #575757;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#services h2 {
+  width: 198%;
+  text-align: center;
+}
+
+#services .services_presentation {
+  font-weight: normal;
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#services .articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#services .articles .article_services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px 0 10px;
+}
+
+#services .articles .article_services span {
+  font-size: 3.5em;
+  color: black;
+}
+
+#services .articles .article_services h3 {
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#services .articles .article_services p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+#services aside {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#services aside .quote {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.middle_banner {
+  background-image: url("img/image-de-presentation.bmp");
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.middle_banner .middle_section {
+  width: 30%;
+  margin: auto;
+  padding: 0 30px 20px 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.middle_banner .middle_section h3 {
+  font-size: 1.3em;
+  color: #E6DEAD;
+}
+
+.middle_banner .middle_section .top_mid_section {
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #E6DEAD;
+}
+
+.middle_banner .middle_section .top_mid_section + p {
+  color: white;
+}
+
+.middle_banner .middle_section a {
+  color: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.middle_banner .middle_section a:hover {
+  color: #E6DEAD;
+  font-size: 1.1em;
+}
+
+#portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("img/lines-h2-bg.png");
+  color: #575757;
+  padding-bottom: 100px;
+}
+
+#portfolio h2 {
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
+
+#portfolio .title {
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 80px;
+}
+
+#portfolio .bloc_portfolio {
+  width: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#portfolio article {
+  width: 320px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+#portfolio article h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1em;
+}
+
+#portfolio article p {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+#contact {
+  padding-top: 0px;
+  background-image: url("img/la-chouette-agence-banniere.jpg");
+  padding-bottom: 50px;
+}
+
+#contact h2 {
+  margin-bottom: 80px;
+}
+
+#contact form {
+  width: 50%;
+  margin-left: 25%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 20px;
+}
+
+#contact form .top_form {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.6em;
+}
+
+#contact form label {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  color: white;
+}
+
+#contact form .contact_box, #contact form select {
+  width: 300px;
+}
+
+#contact form textarea {
+  width: 600px;
+  height: 50px;
+}
+
+#contact form .envoyer {
+  background-color: white;
+  border: 2px solid #8A4E2D;
+  border-radius: 20px;
+  color: #8A4E2D;
+  padding: 12px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 14%;
+  margin-left: 43%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact form .envoyer:hover {
+  background-color: #8A4E2D;
+  color: white;
+  border-color: black;
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer {
+  background-color: #8A4E2D;
+  padding-top: 20px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+footer .social_logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+  margin-left: 35%;
+}
+
+footer .social_logos .social {
+  color: #E6DEAD;
+  font-size: 2em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .social_logos .social:hover {
+  color: white;
+  font-size: 2.5em;
+  margin-bottom: -10px;
+}
+
+footer .lists_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+  color: white;
+}
+
+footer .lists_footer a {
+  color: white;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    margin: 0;
+  }
+  header .logo {
+    display: none;
+  }
+  header nav {
+    margin-left: -10%;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 1.3em;
+  }
+  .top_banner {
+    height: 200px;
+    padding-bottom: 24px;
+  }
+  .bloc {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .bloc a {
+    display: none;
+  }
+  #services {
+    width: auto;
+    margin: 0;
+  }
+  #services h2 {
+    width: 98%;
+  }
+  #services .articles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #services .articles p {
+    margin-bottom: 30px;
+  }
+  #services aside {
+    display: none;
+  }
+  .middle_banner {
+    display: none;
+  }
+  #contact form {
+    width: auto;
+    margin: 0;
+  }
+  #contact form label, #contact form .contact_box, #contact form select, #contact form textarea {
+    width: 100%;
+  }
+  #contact form .envoyer {
+    width: 50%;
+    margin-left: 25%;
+  }
+  footer .lists_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .social_logos {
+    width: auto;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=newstyle.css.map */
